@@ -259,7 +259,6 @@ button,input{
 }
 .info__icon{
        font-size:1.8rem;
-       color: var(--skin-color);
        margin-right: var(--mb-0-75);
 }
 .home__title{
@@ -273,4 +272,19 @@ button,input{
 .home__description{
        max-width: 450px;
        margin-bottom: var(--mb-2);
+}
+
+/* Button  */
+.button {
+       display: inline-flex;
+       align-items: center;
+       column-gap: .5rem;
+       background-color: whitesmoke;
+       padding: .75rem 1.4rem;
+       border-radius: 1rem;
+       font-weight: var(--font-medium);
+       position: relative;
+}
+.button__icon {
+       font-size: 1.5rem;
 }
