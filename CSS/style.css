@@ -197,9 +197,9 @@ button,input{
        display: none;
 }
 .home{
-       background: url('../Images/PHOTO-2023-02-23-15-46-58.jpg');
+       background: url('../Images/cover3.jpg');
        background-size: cover;
-       background-position:center left;
+       background-position:center center;
 
        height: 100vh;
 }
