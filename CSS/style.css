@@ -140,7 +140,7 @@ button,input{
        position: absolute;
        width: 1rem;
        height: 2px;
-       background: linear-gradient(to right,blue,green);
+       background: linear-gradient(to right,red,green);
        right: -45%;
        top: 50%;
 }
@@ -194,11 +194,12 @@ button,input{
        display: inline-flex;
        align-items: center;
        column-gap: .5rem;
-       background: linear-gradient(to right,blue,green);
+       background: linear-gradient(to right,red,green);
        padding: .75rem 1.4rem;
        border-radius: 1rem;
        font-weight: var(--font-medium);
        position: relative;
+       color: white;
 }
 .button__icon {
        font-size: 1.5rem;

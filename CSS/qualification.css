@@ -1,0 +1,23 @@
+.qualification__container {
+       grid-template-columns: repeat(2, 340px);
+       column-gap: 3rem;
+       justify-content: center;
+}
+.qualification__title {
+       font-size: var(--h3-font-size);
+       font-weight: var(--font-medium);
+       margin-bottom: var(--mb-2);
+}
+.timeLine__item {
+       position: relative;
+       margin-bottom: var(--mb-2-5);
+}
+.timeLine__item::before {
+       content:"";
+       width: 1px;
+       position: absolute;
+       left: .48rem;
+       top:0;
+       height:100%;
+       background-color: var(--skin-color);
+}
