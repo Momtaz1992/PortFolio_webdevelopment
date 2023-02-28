@@ -17,7 +17,7 @@
        width: 40px;
        height: 40px;
        border-radius: 50%;
-       background-color: var(--skin-color);
+       background: linear-gradient(to right, red, green);
        text-align: center;
        margin: auto;
 }
