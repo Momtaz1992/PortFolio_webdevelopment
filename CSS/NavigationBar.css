@@ -5,6 +5,7 @@
        position: fixed;
        width: 100px;
        height: 100vh;
+       letter-spacing: 7px;
        background-color: var(--body-color);
        border-right: 1px solid var(--box-color);
 }
