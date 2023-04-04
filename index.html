@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./CSS/qualification.css">
     <link rel="stylesheet" href="./CSS/Skills.css">
     <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
     <!-- link to IconBox -->
     <link
       rel="stylesheet"
@@ -19,6 +20,9 @@
   </head>
   <body>
        <!--------- SideBAR  start--------->
+       <div class="nav__toggle" id="nav-toggle">
+              <i class='bx bx-menu uil uil-bars'></i>
+       </div>
        <aside class="sidebar" id="sidebar">
               <nav class="nav">
                      <div class="nav__logo">
@@ -45,6 +49,9 @@
                      <div class="btn__share">
                             <i class='bx bx-share-alt social__share'></i>
                      </div>
+                     <div class="nav__close" id="nav-close">
+                            <i class='bx bx-x uil uil-times'></i>
+                     </div>
               </nav>
        </aside>
        <!--------- SideBAR  End--------->
@@ -56,21 +63,24 @@
                      <div class="home__social">
                             <span class="home__social-follow">Follow Me</span>
                             <div class="home__social-links">
-                                   <a href="https://www.facebook.com/momtazasmar/" target="_blank" class="home__social-link">
-                                          <i class='bx bxl-facebook' ></i>
+                                   <a href="https://www.linkedin.com/in/momtaz-asmar/" target="_blank" class="home__social-link">
+                                          <i class='bx bxl-linkedin'></i>
                                    </a>
                                    <a href="https://www.instagram.com/momtaz_asmar/" target="_blank" class="home__social-link">
                                           <i class='bx bxl-instagram' ></i>
                                    </a>
-                                   <a href="https://www.facebook.com/momtazasmar/" target="_blank" class="home__social-link">
-                                          <i class='bx bxl-twitter' ></i>
+                                   <a href="https://github.com/Momtaz1992" target="_blank" class="home__social-link">
+                                          <i class='bx bxl-github'></i>
+                                   </a>
+                                   <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="home__social-link">
+                                          <i class='bx bxs-envelope'></i>
                                    </a>
                             </div>
                      </div>
                      <img src="./Images/cover2.jpg" alt="" class="home__img">
                      <div class="home__data">
                             <h1 class="home__title">Hi, I'm Momtaz</h1>
-                            <h3 class="home__subtitle">Frontend Developer</h3>
+                            <h3 class="home__subtitle">Junior Frontend Developer</h3>
                             <p class="home__description">High level Experience in web development Knowledge, producing quality work. </p>
                             <a href="#about" class="button"><i class='bx bx-user button__icon' ></i> More About me</a>
                      </div>
@@ -356,8 +366,8 @@
                                    </div>
                                    <div class="contact__card">
                                           <img class="contact__card-icon" src="https://img.icons8.com/color/48/null/whatsapp--v1.png"/>
-                                          <h3 class="contact__card-title">Whatsapp</h3>
-                                          <span class="contact__card-data">+491629921340</span>
+                                          <h3 class="contact__card-title">Whatsapp</h3> 
+                                          <span class="contact__card-data">Mobile Number:(0049)162-9921340 </span>
                                           <span class="contact__button">
                                                  Write me 
                                           </span>
@@ -370,6 +380,14 @@
                                                  Write me 
                                           </span>
                                    </div>
+                                   <div class="contact__card">
+                                          <img src="https://img.icons8.com/arcade/64/null/github.png"/>
+                                          <h3 class="contact__card-title">GitHub</h3>
+                                          <span class="contact__card-data">https://github.com/Momtaz1992</span>
+                                          <span class="contact__button">
+                                                 Write me 
+                                          </span>
+                                   </div>
 
                             </div>
                      </div>
@@ -378,22 +396,19 @@
                                    <div class="input__container">
                                           <input type="text" class="input">
                                           <label for="">Username</label>
-                                          <span>Username</span>
+                                          
                                    </div>
                                    <div class="input__container">
                                           <input type="text" class="input">
                                           <label for="">Email</label>
-                                          <span>Email</span>
                                    </div>
                                    <div class="input__container">
                                           <input type="text" class="input">
                                           <label for="">Phone</label>
-                                          <span>Phone</span>
                                    </div>
                                    <div class="input__container">
-                                          <input type="text" class="input">
-                                          <label for="">Message</label>
-                                          <span>Message</span>
+                                          <input style="height: 150px;" type="text" class="input">
+                                          <label for="text">Message</label>
                                    </div>
                                    <button type="submit"  class="button"><i class='bx bxs-contact button__icon'></i>Send Message</button>
                             </form>
@@ -402,6 +417,39 @@
        </section>
        <!--------- Contact End --------->
        </main>
+       <footer class="footer">
+              <div class="footer__bg">
+                     <div class="footer__container container grid">
+                            <div>
+                                   <h1 class="footer__title">Momtaz</h1>
+                                   <span class="footer__subtitle">Junior Frontend Developer</span>
+                            </div>
+                            <ul class="footer__links">
+                                   <li>
+                                          <a href="#contact">Contact</a>
+                                   </li>
+                                   <li>
+                                          <a href="#about">About</a>
+                                   </li>
+                            </ul>
+                            <div class="footer__socials">
+                                   <a href="https://www.linkedin.com/in/momtaz-asmar/" target="_blank" class="footer__social">
+                                          <i class='bx bxl-linkedin'></i>
+                                   </a>
+                                   <a href="https://www.instagram.com/momtaz_asmar/" target="_blank" class="footer__social">
+                                          <i class='bx bxl-instagram' ></i>
+                                   </a>
+                                   <a href="https://github.com/Momtaz1992" target="_blank" class="footer__social">
+                                          <i class='bx bxl-github'></i>
+                                   </a>
+                                   <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="footer__social">
+                                          <i class='bx bxs-envelope'></i>
+                                   </a>
+                            </div>
+                     </div>
+                     <p class="footer__copy">&#169; AsmarGroup. all right reserved</p>
+              </div>
+       </footer>
     <script src="./JavaScript/main.js"></script>
   </body>
 </html>
