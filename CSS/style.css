@@ -7,14 +7,11 @@
        --hue-color:242;
 
        /* HSL color Mode */
-       --skin-color: hsl(342, 92%, 46%);
-       --title-color: hsl(var(--hue-color), 8%, 95%);
-       --text-color: hsl(var(--hue-color),8%, 85%);
-       --body-color: hsl(var(--hue-color),19%, 5%);
-       --box-color: hsl(var(--hue-color),14%, 10%);
-       --scroll-bar-color: hsl(var(--hue-color),12%, 38%);
-       --scroll-thumb-color: hsl(var(--hue-color),12%, 26%);
-
+       --skin-color: rgb(231, 6, 55);
+       --title-color: white;
+       --text-color: rgb(193, 191, 191);
+       --body-color: black;
+       --box-color: rgb(32, 32, 32);
        /* Font and typography */
        --body-font:'Poppins', sans-serif;
 
@@ -134,14 +131,14 @@ button,input{
 .home__social-follow{
        font-weight: var(--font-medium);
        position: relative;
-       color: rgb(19, 172, 8);
+       color: white;
 }
 .home__social-follow::after {
        content:"";
        position: absolute;
        width: 1rem;
        height: 2px;
-       background: linear-gradient(to right,red,green);
+       background: white;
        right: -45%;
        top: 50%;
 }
@@ -151,7 +148,7 @@ button,input{
 }
 .home__social-link{
        font-size: 1.08rem;
-       color: rgb(19, 172, 8);
+       color: white;
 }
 .home__social-link:hover{
        transform: translateX(.25rem);
@@ -196,7 +193,7 @@ button,input{
        display: inline-flex;
        align-items: center;
        column-gap: .5rem;
-       background: linear-gradient(to right,red,green);
+       background: var(--skin-color);
        padding: .75rem 1.4rem;
        border-radius: 1rem;
        font-weight: var(--font-medium);

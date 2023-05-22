@@ -20,10 +20,14 @@
        display: flex;
        justify-self: center;
        column-gap: 2rem;
-       
 }
-.footer__links:hover{
-       color: var(--skin-color);
+.footer__links li a{
+       list-style: none;
+       text-decoration: none;
+       color: white;
+}
+.footer__links li a:hover{
+       color:var(--skin-color);
 }
 .footer__social{
        font-size: 1.25rem;
