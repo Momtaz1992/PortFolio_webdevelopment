@@ -161,11 +161,18 @@
        }
 
        .home__social-follow{
-              font-size: var(--smaller-font-size);
-              transform: rotate(90deg);
+              display: none;
        }
        .my__info{
               display: none;
+       }
+       .home__social-links{
+              position: relative;
+              bottom: 90px;
+       }
+       .home__social-links i{
+              font-size: 20px;
+              text-align: center;
        }
        .home__social{
               left:initial;
@@ -178,7 +185,7 @@
               transform: rotate(90deg);
        }
        .home__social-links{
-              flex-direction: column;
+              flex-direction: row;
               row-gap: .25rem;
        }
        .home__social-link{
