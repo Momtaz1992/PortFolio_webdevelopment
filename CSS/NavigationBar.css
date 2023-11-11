@@ -25,10 +25,14 @@
 }
 /* edit capital M : */
 .nav__logo-text{
-       font-size: 1.125rem;
+       font-size: 1.25rem;
        color: var(--title-color);
        font-weight: var(--font-bold);
        line-height: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
 }
 /*  edit menu to down till up  */
 .nav__menu{
