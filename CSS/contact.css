@@ -169,7 +169,7 @@
        }
        .home__social{
               left:initial;
-              right: -1rem;
+              right: -4rem;
               flex-direction: column;
               row-gap: 3.5rem;
        }
