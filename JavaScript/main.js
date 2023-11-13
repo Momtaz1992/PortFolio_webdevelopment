@@ -31,7 +31,7 @@ if(navClose){
               navMenu.classList.remove('show-sidebar')
        })
 }
-document.getElementById("downloadBtn").addEventListener("click", function() {
+/* document.getElementById("downloadBtn").addEventListener("click", function() {
   // Set the file URL and name
   let fileUrl = "../Images/cv.pdf"; // Replace with the actual path to your CV file
   let fileName = "cv.pdf"; // Replace with the desired file name
@@ -45,4 +45,4 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
 
   // Trigger a click on the download link
   downloadLink.click();
-});
+}); */
